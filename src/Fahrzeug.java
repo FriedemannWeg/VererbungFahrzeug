@@ -1,4 +1,4 @@
-public class Fahrzeug {
+public abstract class Fahrzeug {
     protected int geschwindigkeit;
 
     public Fahrzeug(int geschwindigkeit) {
@@ -14,5 +14,6 @@ public class Fahrzeug {
         this.geschwindigkeit = geschwindigkeit;
     }
 
+    public abstract void  allesAusgeben();
 }
 
